@@ -1,0 +1,21 @@
+/* Team section with blue background */
+.team-section {
+  text-align: center;
+  margin: 50px 0;
+  padding: 50px 20px;
+  background: #2196f3;  /* Blue background */
+  color: white;         /* White text */
+  border-radius: 15px;   /* Rounded corners */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.team-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.team-section p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  font-weight: bold;
+}

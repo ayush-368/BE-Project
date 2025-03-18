@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #ff4081;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;   /* Adjust size as needed */
+  height: auto;
+  margin-right: 15px;
+  border-radius: 50%;  /* Makes the logo circular */
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}

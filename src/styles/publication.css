@@ -1,0 +1,24 @@
+.publication {
+  text-align: center;
+  padding: 40px;
+  background: #1b1e3a;
+  color: white;
+}
+
+.thumbnail-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.thumbnail {
+  width: 180px;   /* Adjust size as needed */
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.thumbnail:hover {
+  transform: scale(1.05);
+}
