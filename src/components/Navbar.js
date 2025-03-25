@@ -8,10 +8,12 @@ const Navbar = () => {
       <div className="logo-container">
         <img src="/logo.jpg" alt="Logo" className="logo" />
       </div>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="#about">About Us</Link></li>
-      </ul>
+      <div className="homeButton">
+        Home Page
+      </div>
+      <div className="aboutButton">
+        About Us
+      </div>
     </nav>
   );
 };

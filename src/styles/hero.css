@@ -1,7 +1,17 @@
+.heroWrapper {
+  width: 100%;
+  height: 100vh;
+}
+
 .hero {
+    width: 100%;
+    height: 100%;
     text-align: center;
-    padding: 50px;
-    background: #ff4081;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .cta-button {
@@ -12,3 +22,45 @@
     cursor: pointer;
   }
   
+.herodiv{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  /* background-color: yellow; */
+}
+
+.heroContent {
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 12;
+  margin-top: -50px;
+}
+
+.heroContent h1 {
+  color: white;
+  font-size: 2.6rem;
+}
+
+.heroContent p {
+  font-size: 1.6rem;
+  color: white;
+}
+
+.heroContent button {
+  margin-top: 40px;
+  width: 14rem;
+  height: 4rem;
+  border-radius: 10px;
+  font-size: 1.8rem;
+}
+
+.herodiv img {
+  width: 100%;
+  height: 100%;
+}

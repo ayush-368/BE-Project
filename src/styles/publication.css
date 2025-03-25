@@ -1,24 +1,85 @@
-.publication {
+.publicationWrapper {
+  width: 100%;
+  height: 100vh;
+}
+
+.publicationdiv{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  /* background-color: yellow; */
+}
+
+/* .publication {
   text-align: center;
   padding: 40px;
   background: #1b1e3a;
   color: white;
+} */
+
+.publication {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.publicationContent {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 12;
+  margin-top: -50px;
+}
+
+.publicationContent h1 {
+  color: white;
+  font-size: 2.2rem;
+}
+
+.publicationContent p {
+  font-size: 1rem;
+  color: white;
+  margin-top: -20px;
+  font-weight: 100;
+}
+
+.publicationContent button {
+  margin-top: 40px;
+  width: 14rem;
+  height: 4rem;
+  border-radius: 10px;
+  font-size: 1.8rem;
+}
+
+.publicationdiv img {
+  width: 100%;
+  height: 100%;
 }
 
 .thumbnail-container {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .thumbnail {
-  width: 180px;   /* Adjust size as needed */
+  width: 260px;  
   height: auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   transition: transform 0.3s ease-in-out;
 }
 
-.thumbnail:hover {
+/* .thumbnail:hover {
   transform: scale(1.05);
-}
+} */
